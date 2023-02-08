@@ -10,12 +10,12 @@ import { name, about, bio, avatar } from 'lib/info';
 
 export const revalidate = 60;
 export const metadata = {
-  description: 'Developer, writer, and creator.',
+  description: 'ML engineer, researcher, and hacker.',
   openGraph: {
-    title: 'Lee Robinson',
-    description: 'Developer, writer, and creator.',
-    url: 'https://leerob.io',
-    siteName: 'Lee Robinson',
+    title: 'Jonny Tran',
+    description: 'ML engineer, researcher, and hacker.',
+    url: 'https://jonny.bio',
+    siteName: 'Jonny Tran',
     images: [
       {
         url: 'https://leerob.io/og.jpg',
@@ -80,10 +80,10 @@ export default async function HomePage() {
             className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://twitter.com/leeerob"
+            href="https://github.com/JonnyTran/"
           >
             <ArrowIcon />
-            <p className="h-7">follow me on twitter</p>
+            <p className="h-7">My GitHub projects</p>
           </a>
         </li>
         <li>
@@ -91,10 +91,10 @@ export default async function HomePage() {
             className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://leerob.substack.com"
+            href="https://scholar.google.com/citations?user=i6Dk954AAAAJ"
           >
             <ArrowIcon />
-            <p className="h-7">get email updates</p>
+            <p className="h-7">My Google Scholar publications</p>
           </a>
         </li>
       </ul>
